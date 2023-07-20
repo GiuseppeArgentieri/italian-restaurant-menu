@@ -86,6 +86,48 @@ h1 {
     border-radius: 5px;
   }
 
+/*
+.navbar button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+} */
+
+.circleButton {
+    
+    width: 50px;
+    height: 50px;
+    padding: 8px 15px;
+    border-radius: 50%;
+    background-color: #555; /* Colore di sfondo del bottone */
+    color: #fff; /* Colore del testo del bottone */
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacingCircleButton {
+    margin-bottom: -36px;
+}
+
+#navMenu {
+    max-height: 80px;
+
+}
+
+
+#navMenu a:hover {
+    text-decoration: underline;
+}
+
+
 @media screen and (max-width: 768px) {
     section {
         overflow-x: scroll;
