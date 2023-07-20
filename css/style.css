@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 16px;
+    display: inline-block;
+    margin: 20px; /* Aggiungi il margine tra gli elementi <a> */
+}
+
+nav a.active {
+color: #92af92; /* Colore verde per gli elementi attivi */
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%; /* Assicura che l'immagine non superi la larghezza del suo contenitore */
+    border: 2px solid #ccc; /* Aggiunge un bordo intorno all'immagine */
+    border-radius: 5px; /* Aggiunge bordi arrotondati all'immagine */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra all'immagine */
+}
+
+.spacing {
+    margin-bottom: 40px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Stilizza il bottone */
+.home-button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #609360;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Cambia il colore del bottone al passaggio del mouse */
+.home-button:hover {
+    background-color: #0ec70e;
+}
+
+/* Centra il contenuto del bottone verticalmente e orizzontalmente */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Imposta l'altezza del contenitore al 100% della viewport */
+}
+
+.price {
+    position: static;
+    bottom: 5px;
+    right: 5px;
+    color: #609360;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+@media screen and (max-width: 768px) {
+    section {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+    }
+}
