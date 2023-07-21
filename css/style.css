@@ -6,6 +6,21 @@ body {
     scroll-behavior: smooth;
 }
 
+.ancorIndex {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #609360;
+}
+
+.intestazioneTitolo{
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #609360;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -48,7 +63,8 @@ section {
 }
 
 img {
-    max-width: 100%; /* Assicura che l'immagine non superi la larghezza del suo contenitore */
+    width: 250px;
+    height: 180px;
     border: 2px solid #ccc; /* Aggiunge un bordo intorno all'immagine */
     border-radius: 5px; /* Aggiunge bordi arrotondati all'immagine */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra all'immagine */
@@ -120,4 +136,3 @@ h1 {
 .spacingCircleButton {
     margin-bottom: -36px;
 }
-
