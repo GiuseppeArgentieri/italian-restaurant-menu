@@ -1,12 +1,10 @@
 
-$("[data-trigger]").on("click", function(){
-    var trigger_id =  $(this).attr('data-trigger');
-    $(trigger_id).toggleClass("show");
-    $('body').toggleClass("offcanvas-active");
-});
-
-// close button 
-$(".btn-close").click(function(e){
-    $(".navbar-collapse").removeClass("show");
-    $("body").removeClass("offcanvas-active");
-}); 
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
