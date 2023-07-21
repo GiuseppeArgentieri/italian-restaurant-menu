@@ -128,10 +128,4 @@ h1 {
 }
 
 
-@media screen and (max-width: 768px) {
-    section {
-        overflow-x: scroll;
-        -webkit-overflow-scrolling: touch;
-        white-space: nowrap;
-    }
-}
+
